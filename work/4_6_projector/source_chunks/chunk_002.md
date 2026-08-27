@@ -1,0 +1,17 @@
+This can be frustrating when one is young and does not understand how that works. That someone you may desire invites you to be their friend and not to be their lover. Do not despair. It is the strategy of the 4/6 to enter into the potential of deep intimacy through the gateway of friendship. The sixth line unconscious stands back in its aloofness and says, "I want the perfect partner, I want the right partner, I want what will work, I want the correct kind of relationship". Through friendship, they have the time and the opportunity to then be able to see whether that friend of theirs could be, might be that correct partner for them.
+
+The capacity to have a sound relationship in the first thirty years is unlikely for the 4/6. The third line theme brings many missed opportunities in their first thirty years. It often takes until they reach the middle stage of their life before objectively they can really see who is there for them.
+
+Timing is everything for the 4/6 projector. Waiting for the right timing. Waiting for the opportunity of the correct invitation.
+
+For the emotional 4/6 projector, the timing can be distorted. They are operating through a wave of hope and pain. The moment that they identify with that wave, that they jump either when they are up or when they are down, they are not following the correct timing. The real opportunity for any emotional projector is the opportunity that comes through waiting in order to find clarity.
+
+The emotional system, if defined, is always an authority and there is "no truth in its now". The potential of the 4/6 is to wait, to wait out the wave, to be clear that it is the correct opportunity. To be objective that it is the correct opportunity. Objectivity is the theme of sixth line unconscious. For an emotional being that wait outs the wave, through their clarity, they find their objectivity. They find correctness in their behaviour and in their actions.
+
+The individual 4/6 projector, in not being recognized, can end up being deeply melancholic in its aloneness. Sadness can permeate its whole life. If it is identifying with the chemistry of its individual process and it is making up reasons for why it is sad and why it is alone, it will lose its opportunity for inspiration and the potential for it to have real impact on others.
+
+The individual always brings mutative potential. The 4/6 in the years between thirty and fifty can have an enormous influence over society. They can have a powerful influence, particularly with those who are part of their circle of friends. This a time for them to be a source of objectivity, to be a sounding board and an administrator. This mutative potential of the individual 4/6 can transform the lives of those it has contact with.
+
+The most dynamic theme of the sixth line is its searching for something to trust in. Trust is essential for it in this life. All six lines come to a final stage in their process, the post-fifty year period in which their aloofness must come to an end. They have to re-engage in life, come down from the roof of the house. They have to give up being the authority for others, to be themselves in the world.
+
+It is the opportunity of the 4/6, during its time of aloofness, to be able to see clearly what is correct for it. To see that there is something that they can truly trust and then, trusting in it, embrace it.

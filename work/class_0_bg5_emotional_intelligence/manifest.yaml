@@ -1,0 +1,53 @@
+document_id: class_0_bg5_emotional_intelligence
+source_file: /Users/hungnguyen/Documents/Hung's Claude Code Skills/human-design-translation-studio/source/en_to_vi/Class
+  0 – Introduction to the BG5 Approach to Emotional Intelligence.md
+source_language: en
+target_language: vi
+total_source_words: 10977
+chunk_policy:
+  standard_min_words: 1500
+  standard_max_words: 1600
+  final_chunk_may_be_shorter: true
+  overlap: 0
+total_chunk_count: 8
+chunks:
+- id: chunk_001
+  source_path: work/class_0_bg5_emotional_intelligence/source_chunks/chunk_001.md
+  source_words: 1581
+  translation_status: completed
+  qa_status: passed
+- id: chunk_002
+  source_path: work/class_0_bg5_emotional_intelligence/source_chunks/chunk_002.md
+  source_words: 1509
+  translation_status: completed
+  qa_status: passed
+- id: chunk_003
+  source_path: work/class_0_bg5_emotional_intelligence/source_chunks/chunk_003.md
+  source_words: 1566
+  translation_status: completed
+  qa_status: passed
+- id: chunk_004
+  source_path: work/class_0_bg5_emotional_intelligence/source_chunks/chunk_004.md
+  source_words: 1599
+  translation_status: completed
+  qa_status: passed
+- id: chunk_005
+  source_path: work/class_0_bg5_emotional_intelligence/source_chunks/chunk_005.md
+  source_words: 1500
+  translation_status: completed
+  qa_status: passed
+- id: chunk_006
+  source_path: work/class_0_bg5_emotional_intelligence/source_chunks/chunk_006.md
+  source_words: 1532
+  translation_status: completed
+  qa_status: passed
+- id: chunk_007
+  source_path: work/class_0_bg5_emotional_intelligence/source_chunks/chunk_007.md
+  source_words: 1565
+  translation_status: completed
+  qa_status: passed
+- id: chunk_008
+  source_path: work/class_0_bg5_emotional_intelligence/source_chunks/chunk_008.md
+  source_words: 125
+  translation_status: completed
+  qa_status: passed

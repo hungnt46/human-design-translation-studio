@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:opf="http://www.idpf.org/2007/opf" unique-identifier="bookid" xmlns="http://www.idpf.org/2007/opf" version="2.0">
+   <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="bookid">urn:uuid:273fd756-62f2-4858-8d67-99e08f24bba9</dc:identifier>
+        <dc:contributor opf:file-as="CompanyName" opf:role="own">Epubor</dc:contributor>
+        <dc:contributor opf:file-as="PersonalName" opf:role="own">Ultimate</dc:contributor>
+        <dc:contributor opf:file-as="eCore" opf:role="bkp">eCore v0.9.11.728 [ http://www.epubor.com/ecore.html ]</dc:contributor>
+        <dc:contributor opf:file-as="SiteURL" opf:role="own">http://www.epubor.com</dc:contributor>
+        <meta name="cover" content="cover-image"/>
+        <dc:creator opf:file-as="Reid, Dan G." opf:role="aut">Reid, Dan G.</dc:creator>
+        <dc:creator opf:file-as="Zi, Guan" opf:role="aut">Zi, Guan</dc:creator>
+        <dc:date opf:event="publication">2017-12-20</dc:date>
+        <dc:identifier opf:scheme="ASIN">B078J7XRBX</dc:identifier>
+        <dc:language>en</dc:language>
+        <dc:publisher>Center Ring Publishing</dc:publisher>
+        <dc:title>The Thread of Dao: Unraveling Early Daoist Oral Traditions in Guan Zi’s Purifying the Heart-Mind (Bai Xin), Art of the Heart-Mind (Xin Shu), and Internal Cultivation (Nei Ye)</dc:title>
+   </metadata>
+   <manifest>
+        <item href="text00000.html" id="id_1" media-type="application/xhtml+xml"/>
+        <item href="Image00000.jpg" id="id_2" media-type="image/jpeg"/>
+        <item href="Image00001.jpg" id="id_3" media-type="image/jpeg"/>
+        <item href="Image00002.jpg" id="cover-image" media-type="image/jpeg"/>
+        <item href="Image00004.jpg" id="id_5" media-type="image/jpeg"/>
+        <item href="flow0001.css" id="id_6" media-type="text/css"/>
+        <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+   </manifest>
+   <spine toc = "ncx">
+        <itemref idref="id_1"/>
+   </spine>
+   <guide>
+        <reference type="toc" title="Table of Contents" href="text00000.html#toc" />
+   </guide>
+</package>

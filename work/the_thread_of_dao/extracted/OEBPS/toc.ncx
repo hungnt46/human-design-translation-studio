@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+   <head>
+      <meta name="dtb:uid" content="bookid"/>
+      <meta name="dtb:depth" content="0"/>
+      <meta name="dtb:totalPageCount" content="0"/>
+      <meta name="dtb:maxPageNumber" content="0"/>
+   </head>
+   <docTitle>
+      <text>UnKnown</text>
+   </docTitle>
+   <navMap>
+     <navPoint id="id1" playOrder="1">
+       <navLabel>
+         <text>Introduction</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075902"/>
+     </navPoint>
+     <navPoint id="id2" playOrder="2">
+       <navLabel>
+         <text>The Development of Proto-Daoism in Ancient China</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075903"/>
+     </navPoint>
+     <navPoint id="id3" playOrder="3">
+       <navLabel>
+         <text>Guan Zi, Jixia Academy, and Chu Kingdom</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075904"/>
+     </navPoint>
+     <navPoint id="id4" playOrder="4">
+       <navLabel>
+         <text>Compiling the Guan Zi, circa 26 BC</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075905"/>
+     </navPoint>
+     <navPoint id="id5" playOrder="5">
+       <navLabel>
+         <text>Proto-Daoism in the Guan Zi</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075906"/>
+     </navPoint>
+     <navPoint id="id6" playOrder="6">
+       <navLabel>
+         <text>Internal Cultivation in the Guan Zi</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075907"/>
+     <navPoint id="id7" playOrder="7">
+       <navLabel>
+         <text>Bai Xin (Purifying the Heart-Mind)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075908"/>
+     </navPoint>
+     <navPoint id="id8" playOrder="8">
+       <navLabel>
+         <text>Xin Shu Shang and Xin Shu Xia</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075909"/>
+     </navPoint>
+     <navPoint id="id9" playOrder="9">
+       <navLabel>
+         <text>(Art of the Heart-Mind, upper and lower volumes)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075910"/>
+     </navPoint>
+     <navPoint id="id10" playOrder="10">
+       <navLabel>
+         <text>Nei Ye (Internal Cultivation)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075911"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id11" playOrder="11">
+       <navLabel>
+         <text>Guan Zi&rsquo;s Influence on the Guigu Zi (Ghost Valley Master)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075912"/>
+     </navPoint>
+     <navPoint id="id12" playOrder="12">
+       <navLabel>
+         <text>From the Ghost-Valley Master&rsquo;s (Guigu Zi&rsquo;s), &ldquo;Seven Techniques of Yin Talisman&rdquo;</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075915"/>
+     </navPoint>
+     <navPoint id="id13" playOrder="13">
+       <navLabel>
+         <text>From the Ghost-Valley Master&rsquo;s (Guigu Zi&rsquo;s), &ldquo;Seven Techniques of Yin Talisman&rdquo;</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075916"/>
+     <navPoint id="id14" playOrder="14">
+       <navLabel>
+         <text>Broadening the Spirit in Accordance with the Five Dragons (technique #1)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075919"/>
+     </navPoint>
+     <navPoint id="id15" playOrder="15">
+       <navLabel>
+         <text>Cultivating Will in Accordance with the Spirit-Tortoise (technique #2)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075937"/>
+     </navPoint>
+     <navPoint id="id16" playOrder="16">
+       <navLabel>
+         <text>Consolidating Intention in Accordance with the Soaring Snake (technique #3)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075951"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id17" playOrder="17">
+       <navLabel>
+         <text>Will, Intention, and Thought</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075952"/>
+     </navPoint>
+     <navPoint id="id18" playOrder="18">
+       <navLabel>
+         <text>The Zen of Guan Zi</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075953"/>
+     </navPoint>
+     <navPoint id="id19" playOrder="19">
+       <navLabel>
+         <text>Oneness in Buddhism and the Guan Zi</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075954"/>
+     </navPoint>
+     <navPoint id="id20" playOrder="20">
+       <navLabel>
+         <text>Translating the Bai Xin, Xin Shu, and Nei Ye</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075955"/>
+     </navPoint>
+     <navPoint id="id21" playOrder="21">
+       <navLabel>
+         <text>Reading The Thread of Dao</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075956"/>
+     </navPoint>
+     <navPoint id="id22" playOrder="22">
+       <navLabel>
+         <text>The Proto-Daoist Texts of the Guan Zi:</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075957"/>
+     <navPoint id="id23" playOrder="23">
+       <navLabel>
+         <text>Purifying the Heart-Mind (Bai Xin)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075968"/>
+     </navPoint>
+     <navPoint id="id24" playOrder="24">
+       <navLabel>
+         <text>Purifying the Heart-Mind (Bai Xin)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075969"/>
+     </navPoint>
+     <navPoint id="id25" playOrder="25">
+       <navLabel>
+         <text>Art of the Heart-Mind: upper volume (Xin Shu Shang)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075973"/>
+     </navPoint>
+     <navPoint id="id26" playOrder="26">
+       <navLabel>
+         <text>Art of the Heart-Mind: upper volume (Xin Shu Shang)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075974"/>
+     </navPoint>
+     <navPoint id="id27" playOrder="27">
+       <navLabel>
+         <text>Ancient Commentary Section of the Xin Shu Shang, appearing in the Guan Zi:</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075975"/>
+     </navPoint>
+     <navPoint id="id28" playOrder="28">
+       <navLabel>
+         <text>Art of the Heart-Mind: lower volume (Xin Shu Xia)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075977"/>
+     </navPoint>
+     <navPoint id="id29" playOrder="29">
+       <navLabel>
+         <text>Art of the Heart-Mind: lower volume (Xin Shu Xia)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075978"/>
+     </navPoint>
+     <navPoint id="id30" playOrder="30">
+       <navLabel>
+         <text>Internal Cultivation (Nei Ye)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075979"/>
+     </navPoint>
+     <navPoint id="id31" playOrder="31">
+       <navLabel>
+         <text>Internal Cultivation (Nei Ye)</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075980"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id32" playOrder="32">
+       <navLabel>
+         <text>A Meditation, inspired by the material in Thread of Dao</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075981"/>
+     </navPoint>
+     <navPoint id="id33" playOrder="33">
+       <navLabel>
+         <text>Bibliography</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075982"/>
+     </navPoint>
+     <navPoint id="id34" playOrder="34">
+       <navLabel>
+         <text>Index</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075987"/>
+     </navPoint>
+     <navPoint id="id35" playOrder="35">
+       <navLabel>
+         <text>About the Author</text>
+       </navLabel>
+       <content src="text00000.html#_Toc507075988"/>
+     </navPoint>
+   </navMap>
+</ncx>

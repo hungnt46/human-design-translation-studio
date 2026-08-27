@@ -1,0 +1,1206 @@
+2026-08-23T13:46:27.599262Z  WARN codex_skills::interface: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-08-23T13:46:27.599330Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-08-23T13:46:27.599962Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=file:///Users/hungnguyen/.codex/plugins/cache/openai-primary-runtime/template-creator/26.805.11740/.codex-plugin/plugin.json
+2026-08-23T13:46:27.600872Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=file:///Users/hungnguyen/.codex/plugins/cache/openai-primary-runtime/template-creator/26.805.11740/.codex-plugin/plugin.json
+2026-08-23T13:46:27.671977Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=file:///Users/hungnguyen/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/template-creator/.codex-plugin/plugin.json
+OpenAI Codex v0.149.0-alpha.4.1
+--------
+workdir: /Users/hungnguyen/Documents/Hung's Claude Code Skills/human-design-translation-studio
+model: gpt-5.6-terra
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: high
+reasoning summaries: none
+session id: 01a02edf-6574-7502-b235-a84320151e7a
+--------
+user
+Translate source chunk 001 of the user-provided PDF Medical Qigong from English to Vietnamese. Follow AGENTS.md and prompts/TRANSLATE_FILE.md exactly. Read the glossary and reference files first. Write only a faithful, natural Vietnamese translation into work/medical_qigong/translated_chunks/chunk_001.md, retaining page markers and meaningful headings/list structure but not source text. Do not edit source chunks or source PDF. Update only chunk_001 translation_status and qa_status in work/medical_qigong/manifest.yaml after fidelity and naturalness QA. No web research. Finish the full chunk without asking questions.
+2026-08-23T13:46:27.683891Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=file:///Users/hungnguyen/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/template-creator/.codex-plugin/plugin.json
+2026-08-23T13:46:27.942372Z  WARN codex_skills::interface: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-08-23T13:46:27.942401Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-08-23T13:46:27.942621Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=file:///Users/hungnguyen/.codex/plugins/cache/openai-primary-runtime/template-creator/26.805.11740/.codex-plugin/plugin.json
+2026-08-23T13:46:27.943170Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=file:///Users/hungnguyen/.codex/plugins/cache/openai-primary-runtime/template-creator/26.805.11740/.codex-plugin/plugin.json
+codex
+I’ll translate the provided first chunk using the repository glossary and reference conventions, then run the required fidelity and Vietnamese-naturalness checks before updating only its manifest status.
+exec
+/bin/zsh -lc "pwd && rg --files -g 'AGENTS.md' -g 'TRANSLATE_FILE.md' -g 'HD_GLOSSARY.md' -g 'TERM_DECISIONS.md' -g 'APPROVED_TRANSLATIONS.md' -g 'chunk_001.md' -g 'manifest.yaml' | sort" in /Users/hungnguyen/Documents/Hung's Claude Code Skills/human-design-translation-studio
+ succeeded in 0ms:
+/Users/hungnguyen/Documents/Hung's Claude Code Skills/human-design-translation-studio
+AGENTS.md
+glossary/HD_GLOSSARY.md
+glossary/TERM_DECISIONS.md
+prompts/TRANSLATE_FILE.md
+reference/APPROVED_TRANSLATIONS.md
+work/4_6_projector/manifest.yaml
+work/4_6_projector/source_chunks/chunk_001.md
+work/4_6_projector/translated_chunks/chunk_001.md
+work/class_0_bg5_emotional_intelligence/manifest.yaml
+work/class_0_bg5_emotional_intelligence/source_chunks/chunk_001.md
+work/class_0_bg5_emotional_intelligence/translated_chunks/chunk_001.md
+work/grassinger_martin_reiv_biologiia_immunnaia_sistema/manifest.yaml
+work/grassinger_martin_reiv_biologiia_immunnaia_sistema/source_chunks/chunk_001.md
+work/grassinger_martin_reiv_biologiia_immunnaia_sistema/translated_chunks/chunk_001.md
+work/grassinger_martin_reiv_biologiia_pishchevaritelnaia_sistema/manifest.yaml
+work/grassinger_martin_reiv_biologiia_pishchevaritelnaia_sistema/source_chunks/chunk_001.md
+work/grassinger_martin_reiv_biologiia_pishchevaritelnaia_sistema/translated_chunks/chunk_001.md
+work/medical_qigong/manifest.yaml
+work/medical_qigong/source_chunks/chunk_001.md
+
+exec
+/bin/zsh -lc "wc -l AGENTS.md prompts/TRANSLATE_FILE.md glossary/HD_GLOSSARY.md glossary/TERM_DECISIONS.md reference/APPROVED_TRANSLATIONS.md work/medical_qigong/source_chunks/chunk_001.md work/medical_qigong/manifest.yaml && sed -n '1,240p' prompts/TRANSLATE_FILE.md && sed -n '1,260p' glossary/HD_GLOSSARY.md && sed -n '1,260p' glossary/TERM_DECISIONS.md && sed -n '1,260p' reference/APPROVED_TRANSLATIONS.md && sed -n '1,260p' work/medical_qigong/source_chunks/chunk_001.md && sed -n '1,200p' work/medical_qigong/manifest.yaml" in /Users/hungnguyen/Documents/Hung's Claude Code Skills/human-design-translation-studio
+ succeeded in 0ms:
+     351 AGENTS.md
+      80 prompts/TRANSLATE_FILE.md
+      24 glossary/HD_GLOSSARY.md
+      16 glossary/TERM_DECISIONS.md
+      35 reference/APPROVED_TRANSLATIONS.md
+     412 work/medical_qigong/source_chunks/chunk_001.md
+     512 work/medical_qigong/manifest.yaml
+    1430 total
+# Translate Complete File
+
+Translate the requested source file from beginning to end according to `AGENTS.md`.
+
+## Required preparation
+
+Before translating:
+
+1. Read `AGENTS.md`.
+2. Read `glossary/HD_GLOSSARY.md`.
+3. Read relevant entries from `glossary/TERM_DECISIONS.md`.
+4. Consult `reference/APPROVED_TRANSLATIONS.md` when useful.
+5. Detect the source language and apply repository language routing.
+
+## Source protection
+
+Never modify or overwrite the source file.
+
+## Translation mode
+
+First inspect the document sufficiently to understand:
+- document type;
+- overall structure;
+- major sections;
+- speakers if applicable;
+- recurring terminology;
+- Human Design concepts;
+- tone and discourse style.
+
+If the document can be translated reliably as one unit, translate it directly.
+
+If chunking is required, follow the complete chunking protocol in `AGENTS.md`.
+
+Standard source chunks must contain 1,500–1,600 source words.
+
+The final remainder chunk may be shorter than 1,500 words.
+
+Never exceed 1,600 source words for a standard chunk.
+
+Do not ask the user to split the document manually.
+
+Use `scripts/split_source.py` and `scripts/check_chunks.py` when practical so the chunk constraint is checked deterministically.
+
+## Translation requirements
+
+Translate all source content.
+
+Do not:
+- summarize;
+- omit;
+- shorten;
+- add Human Design knowledge;
+- explain the source;
+- silently correct the author;
+- change the author's degree of certainty.
+
+For English -> Vietnamese, produce natural Vietnamese according to the anti-translationese rules in `AGENTS.md`.
+
+For non-English -> English, produce faithful natural English.
+
+## QA
+
+Perform chunk-level QA when chunks are used.
+
+After completing the entire document:
+1. assemble all translated content in exact source order;
+2. verify completeness;
+3. verify terminology consistency;
+4. perform final fidelity QA;
+5. perform final target-language naturalness QA.
+
+Write only the completed reader-facing translation to the appropriate `translations/` folder.
+
+Store intermediate chunk files only under `work/`.
+
+Report:
+- final output path;
+- unresolved terminology;
+- genuine source ambiguities;
+- QA failures, if any.
+# Human Design Glossary
+
+This file contains canonical terminology approved for this repository.
+
+## Status rules
+
+- **APPROVED** — must be used exactly as specified.
+- **PRESERVE** — keep the source term unchanged.
+- **PENDING** — not canonical; do not treat as approved.
+
+## Glossary
+
+| Source term | Vietnamese | English canonical | Status | Notes |
+|---|---|---|---|---|
+| Human Design | Human Design | Human Design | PRESERVE | Name of the system; do not translate. |
+|  |  |  | PENDING | Add terms only after review. |
+
+## Rules
+
+1. APPROVED terminology overrides stylistic variation.
+2. Do not replace an approved term with a synonym merely to avoid repetition.
+3. A fixed term constrains vocabulary, not the grammar of the surrounding sentence.
+4. If the source contains an important Human Design term not listed here and a translation could distort its meaning, preserve the English term where appropriate and flag it for review.
+5. Do not silently add new APPROVED terms.
+# Human Design Terminology Decisions
+
+Use this file for unresolved terminology, proposed translations, and decision history.
+
+Do not treat a proposed term as canonical until it has been explicitly approved and copied into `HD_GLOSSARY.md`.
+
+## Pending decisions
+
+| Date | Source term | Context | Proposed handling | Status | Notes |
+|---|---|---|---|---|
+
+
+## Decision log
+
+| Date | Source term | Final decision | Added to glossary | Notes |
+|---|---|---|---|---|
+# Approved Translation Examples
+
+Store source -> translation examples that have been manually reviewed and approved.
+
+These examples are style precedents, not permission to add or remove meaning.
+
+## How to add an example
+
+### Example XXX — Short label
+
+#### Source
+> Paste the original passage.
+
+#### Approved translation
+> Paste the manually approved translation.
+
+#### What this example teaches
+- terminology decision;
+- natural Vietnamese syntax;
+- handling of lecture rhythm;
+- idiom or rhetorical expression;
+- another reusable pattern.
+
+---
+
+## Example 001 — Template only
+
+#### Source
+> [SOURCE]
+
+#### Approved translation
+> [APPROVED TRANSLATION]
+
+#### What this example teaches
+- [PATTERN]
+<!-- PDF page 3 -->
+
+Praise for the hardback edition:
+
+“This is the first English translation of this ancient art of Chinese medicine. It 
+
+is a must-read for Traditional Chinese Medical practitioners as it allows the 
+
+traditional principles of Qigong to be related to current scientific evidence. The 
+
+book was generally an excellent read, being a great introduction to the practice 
+
+of Qigong for both experienced and non-experienced TCM practitioners…as 
+
+a sole English reference book in the practice of Qigong it makes an excellent 
+
+reference text for any TCM practitioner… Personally, I found this book an 
+
+excellent read as a practitioner of a more Western approach of acupuncture. It 
+
+presented itself very well at demonstrating the approach of Qigong to many 
+
+typically ‘Western’ diagnoses, which I found useful as a mainly non-TCM 
+
+practitioner. Overall, Chinese Medical Qigong is an excellent reference text in the 
+
+TCM practice of Qigong a vital read for any practitioner.”
+
+—JAACP (The Journal of the Acupuncture Association of Chartered Physiotherapists)
+
+“This is a landmark work in the field of Medical Qigong… The book provides 
+
+a great overview of Qigong theory, research, and practice for anyone who is 
+
+interested in Qigong therapy.”
+
+—qigonghealing.co.uk
+
+“Chinese Medical Qigong is the definitive work on this ancient medical system for 
+
+the English-speaking world. It is an important addition to our understanding of 
+
+the contribution of Chinese culture, tradition, and science to the art of healing.”
+
+—Larry Dossey, M.D., author of Healing Words and The Power of Premonitions
+
+“This is a long-needed and must-read book about the history, science, and 
+
+practice of Chinese Medical Qigong. Clearly written, comprehensive, and 
+
+visionary in scope.”
+
+—Gary E. Schwartz, Ph.D., Professor of Psychology, Medicine, 
+
+Neurology, Psychiatry, and Surgery, The University of Arizona, 
+
+and author of The Energy Healing Experiments
+
+“Chinese Medical Qigong is one of the most comprehensive English texts to be 
+
+published on this subject to date. An important reference for anyone interested 
+
+in Medical Qigong.” 
+
+—Adam Perlman, M.D., M.P.H., F.A.C.P., Endowed Professor of Complementary 
+
+and Alternative Medicine, University of Medicine and Dentistry of New Jersey
+
+“This volume is an unparalleled presentation of current theory, research and 
+
+practice in Medical Qigong in China today. It will appeal to anyone interested 
+
+in use of Qigong to promote health and wellness.”
+
+—Donald D. Davis, Ph.D., Old Dominion University, 
+
+V A, and Tidewater Tai Chi Center
+
+<!-- PDF page 4 -->
+
+“This is an important book, one that has the potential to bring Qigong into the 
+
+clinical and research limelight in the U.S. so that this wonderful and ancient 
+
+healing practice can be better understood scientifically. The history, concepts, 
+
+and practical applications of Qigong are presented thoroughly and systematically. 
+
+The book illuminates not only Qigong, but also sheds light on all of Traditional 
+
+Chinese Medicine and deserves a wide readership among clinicians, researchers, 
+
+acupuncturists, and all others working the field of integrative medicine.”
+
+—Elizabeth R. Mackenzie, Ph.D., Lecturer, History and Sociology of 
+
+Science, School of Arts and Sciences, University of Pennsylvania
+
+“There are very few texts on the instruction of Qigong that address both the art 
+
+and science of this form of movement meditation and therapy. Chinese Medical 
+
+Qigong does both in a clearly documented and organized manner and does 
+
+it well. The first English translation of the ‘only official textbook of Medical 
+
+Qigong utilized in TCM universities in China’ does not suffer from translation 
+
+but, rather, guides the reader through such diverse topics as Qigong history, 
+
+theory, forms, research, and clinical application… It is likely to become the 
+
+‘go-to’ textbook in any medical program that includes Qi-based therapies or 
+
+self-care.”
+
+—Bonnie Povolny, LAc., The American Acupuncturist
+
+“The content of this book is extensive and all-inclusive. It consists of fundamental 
+
+theories, practical methods and skills, clinical applications of Qigong therapy, 
+
+classical Qigong literature, and many other more. This textbook will be a useful 
+
+tool for medical students and health care professionals who are interested in 
+
+complementary and alternative therapies. It will also be an important resource 
+
+book for anyone who practices mind-body exercise (i.e. Tai Chi and Qigong).”
+
+—Violet Li, St. Louis Examiner
+
+“This is a monumental work, put together by a host of editors from many 
+
+Chinese medicine colleges in China as well as some prominent Qigong teachers 
+
+from the U.S. such as Kenneth Cohen and Roger Jahnke… Medical Qigong is 
+
+just becoming more well-known in the West and this book is a welcome and 
+
+valuable addition to this exciting field.”
+
+—The Empty V essel
+
+“What the wealth of material in this book should do is destroy a common idea 
+
+that a weekend course in Qigong is enough to qualify someone in its mastery… 
+
+A worthwhile addition to any practitioner’s collection.”
+
+—The European Journal of Oriental Medicine
+
+<!-- PDF page 5 -->
+
+Chinese 
+
+Medical 
+
+Qigong
+
+Editor in ChiEf: tianjun Liu, o .M.d .
+
+assoCiatE Editor in ChiEf:  
+
+Xiao MEi Qiang, L.aC., MstoM
+
+London and PhiL adeLPhia
+
+<!-- PDF page 6 -->
+
+English language edition first published in 2010
+
+This edition published in 2013
+
+by Singing Dragon
+
+an imprint of Jessica Kingsley Publishers 
+
+116 Pentonville Road
+
+London N1 9JB, UK
+
+and
+
+400 Market Street, Suite 400
+
+Philadelphia, PA 19106, USA
+
+www.singingdragon.com
+
+Copyright © Tianjun Liu 2010 and 2013
+
+English translation copyright © Tianjun Liu 2010 and 2013 
+
+All rights reserved. No part of this publication may be reproduced in any material form (including 
+
+photocopying or storing it in any medium by electronic means and whether or not transiently 
+
+or incidentally to some other use of this publication) without the written permission of the 
+
+copyright owner except in accordance with the provisions of the Copyright, Designs and Patents 
+
+Act 1988 or under the terms of a licence issued by the Copyright Licensing Agency Ltd, Saffron 
+
+House, 6–10 Kirby Street, London EC1N 8TS. Applications for the copyright owner’s written 
+
+permission to reproduce any part of this publication should be addressed to the publisher.
+
+Warning: The doing of an unauthorised act in relation to a copyright work 
+
+may result in both a civil claim for damages and criminal prosecution.
+
+Library of Congress Cataloging in Publication Data
+
+A CIP catalog record for this book is available from the Library of Congress
+
+British Library Cataloguing in Publication Data
+
+A CIP catalogue record for this book is available from the British Library
+
+ISBN 978 1 84819 096 2 
+
+eISBN 978 0 85701 017 9
+
+Printed and bound in Great Britain
+
+<!-- PDF page 7 -->
+
+Contents
+
+Editor’s f orEword . . . . . . . . . . . . . .  11
+
+gEnEraL introduCtion  . . . . . . . . . . .  15
+
+I. Essential Concepts of CMQ . . . . . . . . . . . . . . . . . . . . . . .  15
+
+II. The Academic System of CMQ. . . . . . . . . . . . . . . . . . . . .  22
+
+III. Subjects Related to CMQ . . . . . . . . . . . . . . . . . . . . . . .  24
+
+IV . The Study of CMQ  . . . . . . . . . . . . . . . . . . . . . . . . . .  26
+
+Part I Fundamental Theories 29
+
+ChaptEr 1 thE origins of Qigong and thE  
+
+Major sChooLs  . . . . . . . . . . . . . . . .  30
+
+1. The Origin of Qigong  . . . . . . . . . . . . . . . . . . . . . . .  30
+
+I. Historical T exts  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  31
+
+II. Medical T exts. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  31
+
+III. Archaeological Discoveries . . . . . . . . . . . . . . . . . . . . . . .  32
+
+2. T raditional Major Qigong Schools. . . . . . . . . . . . . . . . .  34
+
+I. Medical Qigong . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  34
+
+document_id: medical_qigong
+source_file: /Users/hungnguyen/Documents/Hung's Claude Code Skills/human-design-translation-studio/work/medical_qigong/source_extracted.md
+source_language: en
+target_language: vi
+total_source_words: 159210
+chunk_policy:
+  standard_min_words: 1500
+  standard_max_words: 1600
+  final_chunk_may_be_shorter: true
+  overlap: 0
+total_chunk_count: 100
+chunks:
+- id: chunk_001
+  source_path: work/medical_qigong/source_chunks/chunk_001.md
+  source_words: 1599
+  translation_status: pending
+  qa_status: pending
+- id: chunk_002
+  source_path: work/medical_qigong/source_chunks/chunk_002.md
+  source_words: 1599
+  translation_status: pending
+  qa_status: pending
+- id: chunk_003
+  source_path: work/medical_qigong/source_chunks/chunk_003.md
+  source_words: 1597
+  translation_status: pending
+  qa_status: pending
+- id: chunk_004
+  source_path: work/medical_qigong/source_chunks/chunk_004.md
+  source_words: 1599
+  translation_status: pending
+  qa_status: pending
+- id: chunk_005
+  source_path: work/medical_qigong/source_chunks/chunk_005.md
+  source_words: 1592
+  translation_status: pending
+  qa_status: pending
+- id: chunk_006
+  source_path: work/medical_qigong/source_chunks/chunk_006.md
+  source_words: 1587
+  translation_status: pending
+  qa_status: pending
+- id: chunk_007
+  source_path: work/medical_qigong/source_chunks/chunk_007.md
+  source_words: 1600
+  translation_status: pending
+  qa_status: pending
+- id: chunk_008
+  source_path: work/medical_qigong/source_chunks/chunk_008.md
+  source_words: 1600
+  translation_status: pending
+  qa_status: pending
+- id: chunk_009
+  source_path: work/medical_qigong/source_chunks/chunk_009.md
+  source_words: 1589
+  translation_status: pending
+  qa_status: pending
+- id: chunk_010
+  source_path: work/medical_qigong/source_chunks/chunk_010.md
+  source_words: 1586
+  translation_status: pending
+  qa_status: pending
+- id: chunk_011
+  source_path: work/medical_qigong/source_chunks/chunk_011.md
+  source_words: 1599
+  translation_status: pending
+  qa_status: pending
+- id: chunk_012
+  source_path: work/medical_qigong/source_chunks/chunk_012.md
+  source_words: 1597
+  translation_status: pending
+  qa_status: pending
+- id: chunk_013
+  source_path: work/medical_qigong/source_chunks/chunk_013.md
+  source_words: 1595
+  translation_status: pending
+  qa_status: pending
+- id: chunk_014
+  source_path: work/medical_qigong/source_chunks/chunk_014.md
+  source_words: 1588
+  translation_status: pending
+  qa_status: pending
+- id: chunk_015
+  source_path: work/medical_qigong/source_chunks/chunk_015.md
+  source_words: 1599
+  translation_status: pending
+  qa_status: pending
+- id: chunk_016
+  source_path: work/medical_qigong/source_chunks/chunk_016.md
+  source_words: 1597
+  translation_status: pending
+  qa_status: pending
+- id: chunk_017
+  source_path: work/medical_qigong/source_chunks/chunk_017.md
+  source_words: 1596
+  translation_status: pending
+  qa_status: pending
+- id: chunk_018
+  source_path: work/medical_qigong/source_chunks/chunk_018.md
+  source_words: 1591
+  translation_status: pending
+  qa_status: pending
+- id: chunk_019
+  source_path: work/medical_qigong/source_chunks/chunk_019.md
+  source_words: 1593
+  translation_status: pending
+  qa_status: pending
+- id: chunk_020
+  source_path: work/medical_qigong/source_chunks/chunk_020.md
+  source_words: 1591
+  translation_status: pending
+  qa_status: pending
+- id: chunk_021
+  source_path: work/medical_qigong/source_chunks/chunk_021.md
+  source_words: 1596
+  translation_status: pending
+  qa_status: pending
+- id: chunk_022
+  source_path: work/medical_qigong/source_chunks/chunk_022.md
+  source_words: 1597
+  translation_status: pending
+  qa_status: pending
+- id: chunk_023
+  source_path: work/medical_qigong/source_chunks/chunk_023.md
+  source_words: 1590
+  translation_status: pending
+  qa_status: pending
+- id: chunk_024
+  source_path: work/medical_qigong/source_chunks/chunk_024.md
+  source_words: 1588
+  translation_status: pending
+  qa_status: pending
+- id: chunk_025
+  source_path: work/medical_qigong/source_chunks/chunk_025.md
+  source_words: 1595
+  translation_status: pending
+  qa_status: pending
+- id: chunk_026
+  source_path: work/medical_qigong/source_chunks/chunk_026.md
+  source_words: 1596
+  translation_status: pending
+  qa_status: pending
+- id: chunk_027
+  source_path: work/medical_qigong/source_chunks/chunk_027.md
+  source_words: 1600
+  translation_status: pending
+  qa_status: pending
+- id: chunk_028
+  source_path: work/medical_qigong/source_chunks/chunk_028.md
+  source_words: 1590
+  translation_status: pending
+  qa_status: pending
+- id: chunk_029
+  source_path: work/medical_qigong/source_chunks/chunk_029.md
+  source_words: 1595
+  translation_status: pending
+  qa_status: pending
+- id: chunk_030
+  source_path: work/medical_qigong/source_chunks/chunk_030.md
+  source_words: 1599
+  translation_status: pending
+  qa_status: pending
+- id: chunk_031
+  source_path: work/medical_qigong/source_chunks/chunk_031.md
+  source_words: 1596
+  translation_status: pending
+  qa_status: pending
+- id: chunk_032
+  source_path: work/medical_qigong/source_chunks/chunk_032.md
+  source_words: 1592
+  translation_status: pending
+  qa_status: pending
+- id: chunk_033
+  source_path: work/medical_qigong/source_chunks/chunk_033.md
+  source_words: 1596
+  translation_status: pending
+  qa_status: pending
+- id: chunk_034
+  source_path: work/medical_qigong/source_chunks/chunk_034.md
+  source_words: 1596
+  translation_status: pending
+  qa_status: pending
+- id: chunk_035
+  source_path: work/medical_qigong/source_chunks/chunk_035.md
+  source_words: 1588
+  translation_status: pending
+  qa_status: pending
+- id: chunk_036
+  source_path: work/medical_qigong/source_chunks/chunk_036.md
+  source_words: 1597
+  translation_status: pending
+  qa_status: pending
+- id: chunk_037
+  source_path: work/medical_qigong/source_chunks/chunk_037.md
+  source_words: 1591
+  translation_status: pending
+  qa_status: pending
+- id: chunk_038
+  source_path: work/medical_qigong/source_chunks/chunk_038.md
+  source_words: 1594
+
+exec
+/bin/zsh -lc "sed -n '261,520p' work/medical_qigong/source_chunks/chunk_001.md && sed -n '490,530p' work/medical_qigong/manifest.yaml && sed -n '1,380p' AGENTS.md" in /Users/hungnguyen/Documents/Hung's Claude Code Skills/human-design-translation-studio
+ succeeded in 0ms:
+II. Daoist Qigong  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  36
+
+III. Buddhist Qigong  . . . . . . . . . . . . . . . . . . . . . . . . . . .  39
+
+IV . Confucian Qigong. . . . . . . . . . . . . . . . . . . . . . . . . . .  40
+
+V . Martial Arts Qigong  . . . . . . . . . . . . . . . . . . . . . . . . . .  42
+
+ChaptEr 2 CLassiCaL thEoriEs  . . . . . . .  45
+
+1. Theories of Medical Qigong  . . . . . . . . . . . . . . . . . . . .  45
+
+I. Theory of Yin-Yang and the Five Elements  . . . . . . . . . . . . . . .  46
+
+II. Zang-Fu (Visceral Manifestation) and Meridian Theory  . . . . . . . .  50
+
+III. The Theory of Essence-Qi-Spirit . . . . . . . . . . . . . . . . . . . .  55
+
+<!-- PDF page 8 -->
+
+2. Theories of Other Qigong Schools . . . . . . . . . . . . . . . . .  58
+
+I. Daoist Qigong Theory. . . . . . . . . . . . . . . . . . . . . . . . . .  58
+
+II. Buddhist Qigong Theory . . . . . . . . . . . . . . . . . . . . . . . .  66
+
+III. Confucian Qigong Theory . . . . . . . . . . . . . . . . . . . . . . .  75
+
+IV . Martial Arts Qigong Theory . . . . . . . . . . . . . . . . . . . . . .  76
+
+ChaptEr 3 ModErn sCiEntifiC rEsEarCh  
+
+on Qigong . . . . . . . . . . . . . . . . . . .  81
+
+1. Summary of Modern Research on Qigong . . . . . . . . . . . . .  81
+
+I. Development of Modern Research on Qigong. . . . . . . . . . . . . .  81
+
+II. T rends and Controversy in Qigong Research . . . . . . . . . . . . . .  86
+
+2. Physiological Effects of Qigong  . . . . . . . . . . . . . . . . . .  89
+
+I. Effects of Qigong on the Respiratory System  . . . . . . . . . . . . . .  90
+
+II. Effect of Qigong on the Cardiovascular System. . . . . . . . . . . . .  93
+
+III. Effects of Qigong on Neuroelectrophysiology  . . . . . . . . . . . . .  97
+
+3. Psychological Effects of Qigong  . . . . . . . . . . . . . . . . . .  102
+
+I. Operational Mechanism of Adjusting Mind in Qigong Practice . . . . .  103
+
+II. Psychological Elements of External Qi Therapy. . . . . . . . . . . . .  106
+
+Part II Practical Methods and Skills 111
+
+ChaptEr 4 BasiC opErations of Qigong 
+
+pra CtiCE  . . . . . . . . . . . . . . . . . . . .  112
+
+1. Adjustment of Body  . . . . . . . . . . . . . . . . . . . . . . . .  112
+
+I. External Adjustments  . . . . . . . . . . . . . . . . . . . . . . . . . .  113
+
+II. Internal Adjustment  . . . . . . . . . . . . . . . . . . . . . . . . . .  125
+
+2. Adjustment of Breath. . . . . . . . . . . . . . . . . . . . . . . .  129
+
+I. Adjustment of Breathing Types  . . . . . . . . . . . . . . . . . . . . .  129
+
+II. Adjustment of Breathing Air  . . . . . . . . . . . . . . . . . . . . . .  134
+
+3. Adjustment of Mind  . . . . . . . . . . . . . . . . . . . . . . . .  136
+
+I. Operation of Mind Adjustment (Yi Nian Tiao Kong, 意念调控) . . . .  136
+
+II. Adjustment of the Mental Realm (Jing Jie Tiao Kong, 境界调控) . . .  141
+
+4. Integrating Three Adjustments into One. . . . . . . . . . . . . .  144
+
+I. Consolidating Method. . . . . . . . . . . . . . . . . . . . . . . . . .  145
+
+II. Extending Method  . . . . . . . . . . . . . . . . . . . . . . . . . . .  147
+
+III. Characteristics of the State Integrating Three Adjustments into One. .  148
+
+<!-- PDF page 9 -->
+
+ChaptEr 5 gEnEraL introduCtion  
+
+to Qigong f orMs  . . . . . . . . . . . . . . .  149
+
+1. Classification of Qigong Forms. . . . . . . . . . . . . . . . . . .  149
+
+I. Classification of Qigong by Academic Schools or T raditions. . . . . . .  149
+
+II. Classification by Dynamic/Static Types. . . . . . . . . . . . . . . . .  152
+
+III. Classification by the Three Adjustments . . . . . . . . . . . . . . . .  153
+
+IV . Classification by Practice Style or Characteristics. . . . . . . . . . . .  153
+
+2. Guidelines and Precautions for Practice  . . . . . . . . . . . . . .  155
+
+I. Guidelines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  155
+
+II. Precautions Before and After Practicing. . . . . . . . . . . . . . . . .  158
+
+3. Possible Reactions to Qigong Practice . . . . . . . . . . . . . . .  160
+
+I. Normal Reactions . . . . . . . . . . . . . . . . . . . . . . . . . . . .  160
+
+II. Adverse Reactions. . . . . . . . . . . . . . . . . . . . . . . . . . . .  162
+
+4. Qigong Deviations and Corrections  . . . . . . . . . . . . . . . .  164
+
+I. The Causes of Deviation. . . . . . . . . . . . . . . . . . . . . . . . .  165
+
+II. Symptoms of Deviation. . . . . . . . . . . . . . . . . . . . . . . . .  165
+
+III. Classifications  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  167
+
+IV . T reatment Methods for Correction of Deviations  . . . . . . . . . . .  168
+
+ChaptEr 6 sELECtEd Qigong f orMs  . . . .  174
+
+1. Five-Animal Frolics (五禽戏). . . . . . . . . . . . . . . . . . . .  174
+
+I. Practice Method . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  176
+
+II. Application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  180
+
+2. The Six Syllable Formula (六字诀). . . . . . . . . . . . . . . . .  181
+
+I. Practice Method . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  182
+
+II. Application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  189
+
+3. Muscle/T endon Changing Classic (易筋经) . . . . . . . . . . . .  190
+
+I. Practice Method . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  190
+
+II. Application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  201
+
+4. Eight Pieces of Brocade (八段锦)  . . . . . . . . . . . . . . . . .  202
+
+I. Practice Method . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  203
+
+II. Application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  207
+
+5. Five Elements Palm (五行掌)  . . . . . . . . . . . . . . . . . . .  208
+
+  source_words: 1596
+  translation_status: pending
+  qa_status: pending
+- id: chunk_097
+  source_path: work/medical_qigong/source_chunks/chunk_097.md
+  source_words: 1598
+  translation_status: pending
+  qa_status: pending
+- id: chunk_098
+  source_path: work/medical_qigong/source_chunks/chunk_098.md
+  source_words: 1600
+  translation_status: pending
+  qa_status: pending
+- id: chunk_099
+  source_path: work/medical_qigong/source_chunks/chunk_099.md
+  source_words: 1598
+  translation_status: pending
+  qa_status: pending
+- id: chunk_100
+  source_path: work/medical_qigong/source_chunks/chunk_100.md
+  source_words: 1358
+  translation_status: pending
+  qa_status: pending
+# Human Design Translation — Repository Instructions
+
+## Role
+You are a translation and editorial assistant for Human Design materials stored in this repository.
+Your job is translation, not interpretation, summarization, teaching, fact-checking, or expansion unless the user explicitly requests one of those as a separate task.
+
+## Language routing
+Automatically detect the primary source language.
+
+- English source -> Vietnamese translation.
+- Any non-English source -> English translation.
+
+If a document is genuinely multilingual, apply the rule to each substantial segment unless the user gives a different instruction.
+
+## Required source fidelity
+Preserve the complete meaning and meaningful structure of the source.
+
+Do not:
+- summarize or shorten;
+- omit examples, qualifications, repetitions with rhetorical value, warnings, exceptions, or side points;
+- add Human Design knowledge not present in the source;
+- silently correct the author's doctrine, argument, chronology, names, Gate/Line/Channel numbers, dates, percentages, quotations, or technical references;
+- strengthen or weaken certainty;
+- convert conditional statements into universal claims;
+- invent missing text when the source is unclear.
+
+Preserve negation, modality, uncertainty, causal relationships, scope, and the author's stance.
+
+## Terminology precedence
+Before translating, read `glossary/HD_GLOSSARY.md` and any relevant files under `reference/`.
+
+Use this precedence order:
+1. explicit instruction in the current user task;
+2. `glossary/HD_GLOSSARY.md` entries marked APPROVED;
+3. approved source/translation examples under `reference/`;
+4. prior documented decisions in `glossary/TERM_DECISIONS.md`;
+5. safest faithful rendering of the source.
+
+Never replace an APPROVED glossary translation with a synonym for stylistic variety.
+
+If an important Human Design term is not approved and translation could distort its technical meaning, preserve the English term where appropriate and flag it in QA rather than establishing a new canon silently.
+
+## Structure preservation
+Keep headings, paragraphs, bullets, numbered lists, quotations, emphasis, timestamps, slide/page markers, and Q&A structure when they are meaningful.
+
+Do not turn prose into bullets or bullets into prose unless explicitly requested.
+
+## Style
+
+### Core translation principle
+Preserve meaning rather than source-language syntax.
+
+Priority order:
+1. semantic accuracy;
+2. approved Human Design terminology;
+3. the author's tone and degree of certainty;
+4. logical relationships and discourse flow;
+5. natural target-language expression.
+
+Sentence structure, word order, grammatical construction, and punctuation of the source do not need to be preserved when doing so would make the target language unnatural.
+
+Never sacrifice meaning for fluency, but never preserve awkward source-language syntax merely in the name of fidelity.
+
+### English -> Vietnamese
+Produce Vietnamese that reads as natural Vietnamese, not as English sentences with Vietnamese words substituted into them.
+
+Use the principle: **semantic fidelity, syntactic freedom**.
+
+Translate the meaning and communicative function of each sentence, then express that meaning using structures a proficient Vietnamese writer would naturally use.
+
+You may, when needed for natural Vietnamese:
+- reorder clauses;
+- split one long English sentence into two or more Vietnamese sentences;
+- combine short clauses when natural;
+- change active/passive constructions;
+- omit pronouns that Vietnamese naturally leaves implicit;
+- restore subjects when Vietnamese requires clarity;
+- replace source-language connectors with natural Vietnamese equivalents;
+- convert English nominalizations into natural Vietnamese verbs or clauses;
+- rearrange modifiers;
+- restructure rhetorical questions;
+- render idioms and conversational expressions by meaning rather than word-for-word form.
+
+These changes are permitted only when semantic content, tone, scope, and degree of certainty remain unchanged.
+
+#### Avoid translationese
+Actively avoid Vietnamese that mechanically mirrors English grammar.
+
+Pay particular attention to:
+- unnecessarily long sentences that preserve English clause order;
+- excessive use of `của`;
+- unnecessary `một` copied from English articles;
+- mechanical use of `được` or `bị` to reproduce English passive voice;
+- repeated explicit pronouns where Vietnamese would naturally omit them;
+- noun-heavy expressions copied from English;
+- literal rendering of English collocations or phrasal structures;
+- unnatural connective chains;
+- overly formal vocabulary when the source is conversational;
+- English-style abstractions that a Vietnamese writer would naturally express with a verb or simpler clause;
+- sentences that are grammatically correct but still clearly sound translated.
+
+These are warnings, not absolute bans. Use the form that produces the most natural Vietnamese without altering the source meaning.
+
+#### Naturalness test
+After translating each paragraph, ask internally:
+
+> If the English source were hidden, would this paragraph plausibly read as something written directly in Vietnamese by a knowledgeable Vietnamese writer?
+
+If not, rewrite the Vietnamese sentence structure while preserving the source meaning.
+
+### Human Design lecture and spoken-language style
+When the source is a lecture, interview, transcript, class, conversation, or spoken teaching, do not automatically convert spoken language into formal written Vietnamese.
+
+Preserve when meaningful:
+- conversational rhythm;
+- rhetorical questions;
+- emphasis;
+- repetitions with rhetorical value;
+- direct address to the listener;
+- the personality and cadence of the speaker.
+
+The Vietnamese should sound like an articulate Vietnamese speaker naturally explaining the same ideas.
+
+Do not make the speaker sound:
+- bureaucratic;
+- academic unless the source is academic;
+- literary unless the source is literary;
+- more polished or sophisticated than the source;
+- like a translated textbook.
+
+Filler, transcription noise, and accidental repetition may be cleaned up only when doing so does not remove meaning or rhetorical intent.
+
+### Idioms and non-literal expressions
+Do not translate idioms, metaphors, conversational formulas, or rhetorical expressions word-for-word when the literal result sounds unnatural or changes their communicative function.
+
+Prefer a natural target-language expression that carries the same meaning, tone, and strength.
+
+Do not replace culturally specific imagery merely to domesticate the text unless literal preservation would make the intended meaning inaccessible.
+
+When no safe natural equivalent exists, preserve the meaning with the least interpretive rendering possible.
+
+### Terminology versus surrounding language
+Approved glossary terms are fixed where specified.
+
+However, the sentence surrounding a glossary term must still be written naturally in the target language.
+
+Do not allow a terminology constraint to force English syntax into the rest of a Vietnamese sentence.
+
+A fixed Human Design term is a lexical constraint, not a requirement to preserve the grammar of the source sentence.
+
+### Non-English -> English
+Produce natural, precise, neutral, professional English.
+Preserve meaning rather than source-language syntax.
+Do not culturally rewrite or "Americanize" the author.
+
+## Ambiguity and source defects
+If the source appears incomplete, mistranscribed, corrupt, or ambiguous:
+- translate what can be supported safely;
+- do not guess missing content;
+- record the issue in the translation file under `## Cần kiểm tra lại` for Vietnamese output, or `## Needs review` for English output.
+
+If a terminology decision is needed, use `## Cần kiểm tra thuật ngữ` or `## Terminology review`.
+
+Do not add these sections when there is no real issue.
+
+## No external knowledge by default
+Do not browse or use outside knowledge to modify the translation unless the user explicitly requests research, verification, explanation, or comparison.
+
+If outside research is requested, keep it clearly separated from the translation.
+
+## File workflow
+When asked to translate a file:
+
+1. Read this `AGENTS.md`.
+2. Read `glossary/HD_GLOSSARY.md`.
+3. Read `glossary/TERM_DECISIONS.md` if terminology is relevant.
+4. Check `reference/APPROVED_TRANSLATIONS.md` for useful precedents.
+5. Read the entire source file when feasible before translating so terminology and discourse context are understood.
+6. Never overwrite the source.
+7. Detect the source language and route the output:
+   - `source/en_to_vi/...` -> `translations/vi/...`
+   - `source/other_to_en/...` -> `translations/en/...`
+8. Preserve the base filename when practical and use Markdown `.md` for plain-text translations unless another format is requested.
+9. For long documents, follow the complete chunking protocol below.
+10. Run silent QA before marking the task complete.
+11. Report only the output path and genuine review items.
+
+## Long documents and chunking protocol
+
+### When to chunk
+Do not split a document merely because chunking is available.
+
+If the document can be translated reliably as one unit, keep it intact.
+
+When chunking is required for a long document, use the deterministic scripts under `scripts/` where practical rather than estimating word counts manually.
+
+### Chunk size
+- Standard source chunks must contain **1,500–1,600 source words**.
+- Count SOURCE words, not translated words.
+- 1,600 source words is a hard maximum for a standard chunk.
+- The final remainder chunk may contain fewer than 1,500 source words.
+- Never pad, repeat, omit, summarize, or duplicate source content merely to satisfy the word-count target.
+- Never create source overlap between chunks.
+- If a language does not use whitespace-delimited words reliably, use a language-aware tokenizer/segmenter supported by the repository scripts.
+
+### Boundary selection
+Within the 1,500–1,600-word range, prefer boundaries in this order:
+
+1. major section boundary;
+2. subsection boundary;
+3. paragraph boundary;
+4. sentence boundary.
+
+Never split in the middle of a sentence.
+
+If no paragraph boundary exists within the permitted range, split at the nearest complete sentence boundary that keeps the chunk at or below 1,600 source words.
+
+If an unusually long sentence itself exceeds the maximum, flag the source and use the safest available boundary without deleting or duplicating text.
+
+### Chunk integrity
+Every source word must belong to exactly one chunk.
+
+There must be:
+- no missing source text;
+- no duplicated source text;
+- no overlapping chunks;
+- no reordered chunks.
+
+Use sequential names:
+- `chunk_001.md`
+- `chunk_002.md`
+- `chunk_003.md`
+
+and so on.
+
+### Manifest
+For every chunked document, create:
+
+`work/<document_id>/manifest.yaml`
+
+Record at minimum:
+- source file;
+- detected source language;
+- target language;
+- total source word count;
+- total chunk count;
+- chunk ID;
+- chunk path;
+- source word count for each chunk;
+- translation status;
+- QA status.
+
+The sum and sequence of the chunks must cover the entire source document.
+
+### Translation continuity
+Translate chunks in source order unless explicitly instructed otherwise.
+
+Before translating a chunk:
+1. read `AGENTS.md`;
+2. read `glossary/HD_GLOSSARY.md`;
+3. consult `glossary/TERM_DECISIONS.md`;
+4. consult relevant approved examples;
+5. understand the current section's context;
+6. inspect the preceding translated chunk when continuity is relevant.
+
+Previous chunks are CONTEXT ONLY.
+
+Do not reproduce previous-chunk text in the current translation.
+
+Maintain terminology, speaker voice, rhetorical continuity, pronoun reference, and conceptual continuity across chunk boundaries.
+
+### Chunk QA
+After translating each chunk, perform the repository QA checks before proceeding.
+
+Do not reduce fidelity, detail, or naturalness in later chunks.
+
+### Assembly
+After all chunks are translated:
+1. verify every expected chunk exists;
+2. verify chunk ordering;
+3. verify no chunk is duplicated or omitted;
+4. assemble translated chunks exactly once and in order;
+5. remove chunk-only metadata from the final reader-facing translation;
+6. preserve original headings and meaningful document structure;
+7. run a complete document-level QA pass.
+
+Never replace a missing or failed chunk with a summary.
+
+A document is not complete merely because all chunk files exist.
+It is complete only after assembly and final QA succeed.
+
+## QA checklist
+Before marking a translation complete, perform two silent QA passes.
+
+### Pass 1 — Fidelity check
+Verify:
+- no source content was omitted;
+- no meaning was added;
+- conditions and exceptions remain intact;
+- negations are preserved;
+- modality, uncertainty, and degree of certainty are preserved;
+- causal relationships, scope, and the author's stance remain correct;
+- numbers, names, dates, Gates, Lines, Channels, quotations, and technical references are preserved accurately;
+- approved terminology is applied consistently;
+- headings, lists, quotations, and other meaningful structure are preserved;
+- unclear source passages were flagged rather than invented;
+- for chunked documents, no chunk content was omitted, duplicated, or reordered.
+
+### Pass 2 — Native target-language check
+For English -> Vietnamese, read the Vietnamese without mentally following the English sentence structure.
+
+Check for:
+- translationese;
+- literal English syntax;
+- awkward clause order;
+- unnecessary pronouns;
+- unnecessary passive constructions;
+- excessive nominalization;
+- excessive `của` or unnecessary `một`;
+- unnatural connectors;
+- repeated words caused by literal translation;
+- unnecessarily formal vocabulary;
+- sentences that are technically correct but do not sound naturally Vietnamese;
+- loss of the speaker's conversational rhythm when the source is spoken language.
+
+Rewrite any such sentence into idiomatic Vietnamese while preserving semantic content, tone, terminology, scope, and degree of certainty.
+
+For non-English -> English, perform the equivalent natural-English check without culturally rewriting the author.
+
+### Final acceptance criteria
+A translation is complete only when both conditions are true:
+
+1. A bilingual reviewer can map all substantive meaning back to the source.
+2. A target-language reader who cannot see the source would not immediately perceive the prose as a literal translation.
+
+Do not display these internal QA steps unless the user explicitly requests a translation audit.
+
+## Editing safety
+Never overwrite files in `source/`.
+Do not mass-edit glossary decisions without explicit user approval.
+Do not move or delete source/translation files unless asked.
+Do not delete `work/` intermediate files automatically after assembly.
+
+## Default response behavior
+For translation tasks, prioritize editing/creating the requested file over lengthy chat commentary.
+
+Keep completion messages concise:
+- final output path;
+- unresolved terminology, if any;
+- genuine source ambiguities, if any;
+- QA failures, if any.
+

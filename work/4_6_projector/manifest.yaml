@@ -1,0 +1,22 @@
+document_id: 4_6_projector
+source_file: /Users/hungnguyen/Documents/Hung's Claude Code Skills/human-design-translation-studio/source/en_to_vi/4_6_projector.txt
+source_language: en
+target_language: vi
+total_source_words: 2163
+chunk_policy:
+  standard_min_words: 1500
+  standard_max_words: 1600
+  final_chunk_may_be_shorter: true
+  overlap: 0
+total_chunk_count: 2
+chunks:
+- id: chunk_001
+  source_path: work/4_6_projector/source_chunks/chunk_001.md
+  source_words: 1553
+  translation_status: complete
+  qa_status: passed
+- id: chunk_002
+  source_path: work/4_6_projector/source_chunks/chunk_002.md
+  source_words: 610
+  translation_status: complete
+  qa_status: passed

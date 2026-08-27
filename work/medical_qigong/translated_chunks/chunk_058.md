@@ -1,0 +1,41 @@
+#### 2. Điều chỉnh hơi thở
+Khi luyện tập Khí công tĩnh ở cấp độ sơ cấp, bắt đầu bằng thở tự nhiên rồi dần dần chuyển sang thở bụng khi kỹ năng luyện tập được cải thiện. Hơi thở được kết hợp với việc thầm niệm "tĩnh lặng" và "thả lỏng" nhằm đạt được sự thả lỏng và an tĩnh, đồng thời xây dựng nền tảng cho phương pháp thở hít vào–ngừng–thở ra tương đối phức tạp ở cấp độ trung cấp.
+
+1. Thở tự nhiên: Thở một cách tự nhiên như hơi thở bình thường.
+2. Thở bụng: Thở bụng có đặc trưng là bụng phồng lên xẹp xuống theo nhịp thở. Thở bụng có thể chia thành thở bụng thuận và thở bụng nghịch. Trong thở bụng thuận, bụng phồng lên khi hít vào và xẹp xuống khi thở ra. Trong thở bụng nghịch, ngực phồng lên và căng đầy, bụng xẹp xuống hoặc hóp vào khi hít vào, rồi ngực trở lại bình thường và bụng phồng lên căng đầy khi thở ra. Dù là loại thở bụng nào, mục đích đều giống nhau: hướng tới hơi thở trơn tru, đều, nhẹ, chậm, sâu và kéo dài. Cố sức kéo dài hơi thở chỉ để đạt được sự phồng xẹp của bụng sẽ gây khó chịu cho cơ thể, cần tránh điều này.
+
+#### 3. Điều chỉnh tâm trí
+Ở đây sử dụng phương pháp Ý thủ, hay "giữ ý tại", bao gồm "giữ ý tại các vị trí không cố định" và "giữ ý tại một vị trí cố định". "Giữ ý tại các vị trí không cố định" nên được kết hợp với năm công pháp thả lỏng và tĩnh lặng, còn "giữ ý tại một vị trí cố định" là tập trung tâm trí vào hạ đan điền, với huyệt Khí Hải là tâm điểm tập trung.
+
+1. Giữ ý tại các vị trí không cố định:
+a. Phương pháp lan tỏa–hạ xuống: Giữ ý và tưởng tượng năng lượng đang lan tỏa từ một điểm trung tâm hay một trục trung tâm (một vùng cơ thể) ra bên ngoài khi hít vào; đồng thời thầm niệm "tĩnh lặng", để bản thân lắng dịu và đi vào trạng thái an tĩnh càng nhanh càng tốt. Giữ ý và tưởng tượng sự thả lỏng của cơ thể đang lan tỏa từ trên xuống dưới khi thở ra; đồng thời thầm niệm "thả lỏng" và cảm nhận cảm giác cùng hiệu quả của sự thả lỏng.
+b. Phương pháp thu tụ–hạ xuống: Giữ ý và tưởng tượng năng lượng tươi mới chứa trong khí đang thu tụ vào trong, hướng về một điểm trung tâm hay một trục trung tâm của cơ thể khi hít vào. Giữ ý và tưởng tượng sự thả lỏng đang lan tỏa từ đỉnh cơ thể xuống dưới khi thở ra và niệm chú, giống như cách thực hiện ở mục (a).
+c. Phương pháp thăng lên–hạ xuống: Đối với việc luyện tập toàn thân, giữ ý và tưởng tượng năng lượng đang thăng lên từ hai bàn chân tới huyệt Đản Trung, mức thượng đan điền, khi hít vào. Giữ ý và tưởng tượng sự thả lỏng đang lan tỏa xuống dưới từ huyệt Bách Hội, đỉnh đầu, tới hai bàn chân. Đối với việc luyện tập một vùng cơ thể đặc biệt, đường ranh giới dưới của vùng đó là mức khởi đầu để năng lượng lan lên đường ranh giới trên của vùng này, còn đường ranh giới trên của vùng đó là mức khởi đầu để sự thả lỏng hạ xuống đường ranh giới dưới. Phương pháp thở và niệm chú giống như trên.
+d. Phương pháp lan tỏa–thu tụ: Giữ ý và tưởng tượng năng lượng đang lan tỏa từ một điểm trung tâm hay một trục trung tâm của cơ thể ra bên ngoài khi hít vào. Giữ ý và tưởng tượng tâm trí đang thu tụ lại và cơ thể đang thả lỏng hướng vào trong, về phía điểm trung tâm hay trục trung tâm của cơ thể. Các phương pháp thực hiện khác giống như trên.
+e. Phương pháp thu tụ–xua tan: Giữ ý và tưởng tượng năng lượng tươi mới chứa trong khí đang thu tụ hướng vào điểm trung tâm hay trục trung tâm của cơ thể khi hít vào. Giữ ý và tưởng tượng trọc khí cùng bệnh khí đang lan tỏa và bị xua tan ra khỏi cơ thể, khiến toàn thân được thả lỏng, khi thở ra.
+
+Chọn một vài phương pháp phù hợp, luyện tập chúng trong 10–15 phút, sau đó luyện "giữ ý tại một vị trí cố định" để dưỡng khí.
+
+2. Giữ ý tại một vị trí cố định: Đây là phương pháp "Đan điền Ý thủ", nhằm giữ ý tại hạ đan điền — một vùng ở bụng dưới, có huyệt Thần Khuyết làm ranh giới trên, huyệt Quan Nguyên làm ranh giới dưới, và huyệt Khí Hải làm tâm điểm, có kích thước tương đương một nắm tay. Giữ ý nhẹ nhàng tại vùng này trong 5–10 phút để nuôi dưỡng thân và thần, đồng thời bổ nguyên khí.
+
+Cấp độ sơ cấp của việc luyện tập Khí công này có thể xây dựng nền tảng cho việc luyện tập ở cấp độ trung cấp, giúp người tập ở cấp độ trung cấp thả lỏng cơ thể và nhanh chóng đi vào trạng thái an tĩnh. Nó cũng có thể được dùng như một công pháp chuẩn bị và điều chỉnh.
+
+### B. Cấp độ trung cấp: Phương pháp điều chỉnh hơi thở hít vào–ngừng–thở ra
+
+#### 1. Điều chỉnh thân thể
+Ngoài các tư thế đã dùng ở cấp độ sơ cấp, bổ sung thêm tư thế nằm nghiêng, tư thế Vĩ Cao hay Wei-Gao (尾高), tư thế ngồi phẳng, và tư thế nằm dựa hay Tráng Thức, Zhuang-Shi (壮式).
+
+1. Tư thế nằm nghiêng: Có thể nằm nghiêng về bên nào cũng được. Vì nằm nghiêng bên phải phổ biến hơn, hãy lấy bên phải làm ví dụ. Nằm nghiêng trên giường. Gối đầu lên gối một cách thoải mái và giữ đường cong tự nhiên của cơ thể. Hơi nghiêng đầu về phía trước, hơi gập thắt lưng và lưng để thu ngực lại và giữ thẳng lưng. Gập tay phải một cách tự nhiên và đặt cạnh tai, cách đầu 2 thốn, lòng bàn tay hướng lên và năm ngón tay duỗi thẳng. Duỗi tay trái tự nhiên qua hông trái, lòng bàn tay trái hướng xuống và các ngón tay thả lỏng. Duỗi thẳng chân phải tự nhiên, gập gối trái ở góc 120 độ, và đặt đầu gối trái lên trên đầu gối phải. Nhắm nhẹ mắt hoặc hé mở một chút. Hít vào và thở ra bằng mũi. Nếu nằm nghiêng bên trái, đảo ngược các hướng dẫn trên.
+
+Về việc nằm nghiêng bên phải hay bên trái, người tập có thể chọn bên nào tùy theo sở thích cá nhân và tình trạng thể chất. Nằm nghiêng bên phải giúp dạ dày dễ dàng tống xuất và giảm áp lực cho tim do dạ dày nặng gây ra. Do đó, tư thế này được khuyến nghị cho người bị nhược trương dạ dày, rối loạn nhu động dạ dày, chậm tống xuất dạ dày, hoặc có vấn đề về tim. Nằm nghiêng bên trái được khuyến nghị cho người bị sa niêm mạc dạ dày.
+
+2. Tư thế Vĩ Cao, hay Wei-Gao Wei Shi (尾高位式): Tương tự tư thế nằm ngửa. Điểm khác biệt là: đặt một vật cao khoảng 10cm dưới mông, để hình dáng cơ thể người tập giống như yên ngựa. Duỗi thẳng hai chân một cách thoải mái, hoặc gập hai chân với hai bàn chân kéo về phía hông. Giữ hai đầu gối sát nhau, hai bàn chân rộng bằng vai và song song với nhau, tạo thành một hình tam giác lập thể. Đây là một tư thế đặc biệt dùng để điều trị sa nội tạng.
+
+3. Tư thế ngồi phẳng: Ngồi thẳng trên ghế đẩu. Giữ phần thân trên và lưng thẳng, thu ngực lại, hơi thu cằm vào, và giữ đầu thẳng với huyệt Bách Hội hướng lên trên. Thả lỏng vai và hạ khuỷu tay xuống. Đặt hai tay tự nhiên lên đùi, lòng bàn tay hướng xuống. Giữ hai bàn chân rộng bằng vai và song song với nhau, khớp gối gập ở góc 90 độ, cẳng chân vuông góc với mặt đất. Nhắm nhẹ hai mắt và giữ thần bên trong. Hít vào và thở ra bằng mũi.
+
+4. Tư thế nằm dựa, hay Tráng Thức (壮式): Nằm ngửa trên giường, nhưng gối đầu cao hơn 25–30cm và đặt một tấm đệm dưới vai và lưng trên để tạo thành một mặt dốc; đảm bảo không có khoảng trống dưới lưng trên. Duỗi hai tay tự nhiên sang hai bên thân, lòng bàn tay chạm vào mặt bên của đùi. Duỗi hai chân tự nhiên với hai gót chân chạm nhau và các ngón chân hướng lên trên. Tư thế này tương đối khó, thường được dùng vào cuối một liệu trình điều trị để củng cố hiệu quả điều trị và tiếp tục cải thiện sức mạnh cơ thể.
+
+#### 2. Điều chỉnh hơi thở
+Ở cấp độ trung cấp của việc luyện tập Khí công, tư thế và rèn luyện tâm trí theo tiêu chuẩn vẫn được yêu cầu, nhưng việc điều chỉnh hơi thở càng được nhấn mạnh hơn ở cấp độ này. Thông qua việc rèn luyện các phương pháp thở "ngừng thở" không đều khác nhau, người tập không chỉ có thể điều hòa hơi thở, mà còn có thể dần dần đạt được hiệu quả điều hòa tốt hơn chức năng vỏ não và hệ thần kinh trung ương, phối hợp tốt hơn chức năng của hệ thần kinh giao cảm và phó giao cảm, cũng như điều chỉnh chức năng Âm Dương mất cân bằng và đạt tới một mức độ cân bằng Âm Dương mới trong cơ thể.
+
+Có năm loại phương pháp thở "ngừng thở" ở cấp độ trung cấp của việc luyện tập Khí công tĩnh. Các phương pháp thở "ngừng thở" cơ bản thường dùng trong lâm sàng là phương pháp thở mềm và phương pháp thở cứng. Phương pháp thở mềm còn được gọi là phương pháp dưỡng Âm, theo trình tự hít vào–thở ra–ngừng. Phương pháp thở cứng là phương pháp bổ Dương, theo trình tự hít vào–ngừng–thở ra. Loại phương pháp thở "ngừng thở" thứ ba là hít vào–ngừng–hít vào–thở ra, còn được gọi là phương pháp bổ cả Âm và Dương, phù hợp hơn với người cao tuổi suy nhược và người bệnh nặng không thể luyện tập động công.

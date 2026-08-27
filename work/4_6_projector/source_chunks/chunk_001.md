@@ -1,0 +1,49 @@
+The 4/6 Profile
+
+The 4/6 is an opportunistic personality, employing its transpersonal gifts, its ability to establish friendships, to communicate the values of the lower trigram, and in doing so, fulfilling its personal destiny. Aloofness is inherent in the sixth line and it rarely leads to involvement. The nature of the transition line, of the sixth line, is to assess and pass judgement on what has already been established.
+
+At the end of the lower trigram, through the 3/6 profile, the six assesses and qualifies the trial and error of the three. But in the upper trigram, through the fourth line of externalisation, the process is different. Where the third line will test the foundation, the fourth line is only interested in externalising it. Where the six grades the qualities of the foundation beneath the three, it grades the mechanics of social interaction beneath the four. In this sense, the fourth line personality accepts the foundation established through the lower trigram process without question. What is now important is whether the message can be delivered.
+
+The 4/6 has only one question. Can I get my truth across to the other? It is not whether or not I have the truth. It is whether or not I have the skills to get other people to accept it. Wherever we see the fourth line, we encounter the capacity to influence others. This is the missionary quality of determination and fixed attention. The 1/4 profile and the 2/4 profile both carry this potential in the blood. Here it is the personality. The 4/6 is conscious of its need to communicate and is restrained by its sixth line unconscious.
+
+The fourth line is always the opportunist. The opportunist is always ready to abdicate, ready to surrender to the pressure of the majority. However the 4/6 cannot afford to surrender to any challenge to its authority, it would be shattered. So it holds to its aspired role of aloneness, avoiding contact with those it is uncertain of. Social perfection lies in finding allies that embrace the 4/6 profile socially and either agree with or avoid challenging the 4/6’s basic concepts.
+
+The entire externalising mechanism for the 4/6 is the tension between wanting to be left alone so as not to be threatened and a deep need for friendship. The unconscious demands aloofness, while yearning at the personality level for quality friendships. The bonding strategy of the fourth line is to be a confidante or not. It is becoming this confidante that precludes an overt sexual nature.
+
+Friendship is the dominant theme. At the unconscious level, the sixth line is seeking perfection in all bonds and is ready to abstain and wait for the opportunity. It is not uncommon for 4/6’s to befriend the partner of a friend, become their confidante and end up having an affair.
+
+Before the sixth line can make a commitment, they must first observe and contemplate from a distance. They cannot successfully just leap into a relationship. In watching someone else in a relationship over time, their friends or their friend’s partner, they can assess the person and their qualities and in finding them satisfying can then begin to dream that they could be their partner.
+
+The primary question at the heart of the 4/6 profile is if there is anyone that they can trust. As a result, one of the dominant themes in the life of the 4/6 is corruption. Words have their power. Corruption is a term that is misunderstood if it can only be viewed through moral lenses.
+
+As an example, is a corrupt judge good or bad? Let us imagine that the tribal law established out of communal values and maintained over time, is that if you’re caught stealing bread, you will have your left hand cut off. A judge that presides over such a case, and despite clear evidence that the crime has been committed refuses to apply the traditional law as inhumane can be viewed by the majority as having corrupted the law.
+
+The 4/6 profile fears any challenge to its law.
+
+It would rather be alone than be corrupted, but it is not past corrupting others in order to bring them to its values. The fourth line personality must externalise its foundation and not allow that foundation to be corrupted. The sixth line unconscious, in its aloofness, is there to guide and to be in judgement.
+
+Despite the transpersonal gifts of the 4/6 profile and the personality’s capacity to be able to easily establish friendships, they suffer from great fatigue with the reflections of others. Friendship is there in order for them to be able to establish their law, and not to listen to the laws or pay attention to the laws of others.
+
+As with all profiles, how the 4/6 is going to be able to function successfully, how they are going to be able to find the right kinds of relationships for externalising the foundation, will be dependent entirely on their living out their Type.
+
+Having access to the knowledge of your profile does not mean that you actively have to pursue that. It is your nature and this capacity to be able to fulfil your profile, to find your purpose, is a natural by-product of your living out your design. It is a natural by-product of following the mechanical rules of living out your Type.
+
+The 4/6 Profile Projector
+The identity of the fourth line is to be an opportunist. It is opportunism that grows out of its capacity to be social and to interact with others. The fourth line personality is the first transpersonal personality. It is aware of the other. Because it is aware of the other, it is its way in life to be able to externalise its truth through the other.
+
+The fourth line is in harmony with the first line below. It is a foundation line. It is the foundation of the upper trigram. It is very fixed in its nature. The fourth line is fixed on externalising. It is fixed on making relationships work, so that it can get its truth across. The sixth line unconscious is the role model. The role model is always seeking out what is perfect, is always looking for the best possible way, for the best possible relationship, for the best possible career, so that it can be an example. So that it can live out its role model capacity. Sixth lines can be capable administrators.
+
+The 4/6 is the first transpersonal profile and the only purely transpersonal profile. Both fourth and sixth lines belong to the upper trigram. Yet it is still involved in its own personal destiny. It is its personal destiny to externalise its fixed truth, through its capacity to be transpersonal with others.
+
+The 4/6 projector is going to attract relationships. It is going to attract friendships. As a projector it needs to be invited into its relationships and it needs to be recognized for its nature. It is the personality theme of the fourth line to externalise its truth. It is essential for the 4/6 in its relationships with others that they are receptive to its truth.
+
+Whenever there is a sixth line in a profile it brings the three specific stages of the sixth line's development. In the first thirty years, the sixth line lives out an essentially third line theme---The six and the three being in harmony. The sixth line unconscious, in the first thirty years, is looking for experience, bumping into things, following a path of trial and error. What will become optimism, later in the sixth line's life, begins as pessimism.
+
+The 4/6 projector, in this first thirty year period, is going to have many opportunities bump into it. In having many opportunities bump into it, if it is not acting according to its type, if it is not waiting for the invitation and responding out of its authority, then it is going to have a deeply pessimistic response. And out of that pessimistic response, a need to simply be left alone. The aloneness of the fourth line, alone in the fixedness and also the need for aloneness in its life, feeds the dynamic of the sixth line that seeks to be aloof.
+
+The sixth line gets burned early by experience and needs to rise above that experience in order to find its objectivity. The objectivity comes from that place of aloneness.
+
+The 4/6 projector in the first part of its life has to pay careful attention to what it enters into. That it enters into things correctly by waiting for the invitation. So that when it is brought deep into its aloneness and aloofness, it has the material necessary that out of its objectivity it can be rewarded with recognition.
+
+The fourth line personality is geared towards making friendships. It is this capacity to be able to engage with the other and to commune with the other, to be a confidante or not, that opens up the eventual possibility of sexual intimacy with the other. For the 4/6 projector, intimacy is something that they have to be invited to. But they have to be invited to friendship first.
+
